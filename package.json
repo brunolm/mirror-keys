@@ -11,6 +11,10 @@
     "preversion": "npm test",
     "prepublish": "npm test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunolm/mirror-keys"
+  },
   "keywords": [
     "mirror-keys",
     "const-enum"
@@ -21,6 +25,7 @@
     "url": "http://codingwise.com/"
   },
   "license": "ISC",
+  "runkitExampleFilename": "runkit.js",
   "devDependencies": {
     "@types/chai": "^3.4.35",
     "@types/mocha": "^2.2.40",
