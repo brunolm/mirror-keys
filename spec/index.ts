@@ -9,7 +9,7 @@ describe('mirrorKeys', () => {
     assert.deepEqual(actual, expected);
   });
 
-  it('should mirror simple objects with preffix', () => {
+  it('should mirror simple objects with prefix', () => {
     const actual = mirrorKeys('Home.', { a: undefined });
     const expected = { a: 'Home.a' };
 
@@ -23,7 +23,7 @@ describe('mirrorKeys', () => {
     assert.deepEqual(actual, expected);
   });
 
-  it('should mirror nested objects with preffix', () => {
+  it('should mirror nested objects with prefix', () => {
     const actual = mirrorKeys('Home.', { a: { b: undefined } });
     const expected = { a: { b: 'Home.b' } };
 
