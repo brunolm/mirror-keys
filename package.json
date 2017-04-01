@@ -8,7 +8,8 @@
     "build": "tsc",
     "test": "mocha dist/spec",
     "pretest": "npm run build",
-    "preversion": "npm run test"
+    "preversion": "npm test",
+    "prepublish": "npm test"
   },
   "keywords": [
     "mirror-keys",
