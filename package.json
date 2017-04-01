@@ -1,6 +1,6 @@
 {
   "name": "mirror-keys",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Copies object keys over to values, useful to create a constant like enum.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -10,7 +10,10 @@
     "pretest": "npm run build",
     "preversion": "npm run test"
   },
-  "keywords": ["mirror-keys", "const-enum"],
+  "keywords": [
+    "mirror-keys",
+    "const-enum"
+  ],
   "author": {
     "email": "brunolm7@gmail.com",
     "name": "Bruno Leonardo Michels",
